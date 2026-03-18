@@ -1,0 +1,6 @@
+name: nemo-tts
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+prefix: /Users/ibrahimkhaliloglu/miniconda3/envs/nemo-tts
