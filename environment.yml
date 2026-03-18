@@ -1,7 +1,20 @@
 name: nemo-tts
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.10
-  - ipykernel      
-prefix: /Users/ibrahimkhaliloglu/miniconda3/envs/nemo-tts
+  - ipykernel
+  - pip
+  - pip:
+    - numpy==1.26.4
+    - torch==2.6.0
+    - torchaudio==2.6.0
+    - nemo_toolkit[tts]==2.7.0
+    - soundfile
+    - librosa
+    - matplotlib
+    - ipywidgets
+    - jupyter
+    - omegaconf
+    - huggingface_hub
