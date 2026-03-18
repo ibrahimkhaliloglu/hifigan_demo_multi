@@ -3,4 +3,5 @@ channels:
   - defaults
 dependencies:
   - python=3.10
+  - ipykernel      
 prefix: /Users/ibrahimkhaliloglu/miniconda3/envs/nemo-tts
